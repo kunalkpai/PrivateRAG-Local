@@ -1,0 +1,31 @@
+# ── Core LangChain ─────────────────────────────────────────────────────────
+langchain>=0.2
+langchain-community>=0.2
+langchain-ollama>=0.1
+langchain-google-genai>=1.0.8
+langchain-text-splitters>=0.2
+
+# ── Vector store ───────────────────────────────────────────────────────────
+chromadb>=0.5
+langchain-chroma>=0.1
+
+# ── Embeddings (local, no API key required) ────────────────────────────────
+sentence-transformers>=3.0
+langchain-huggingface>=0.1
+
+# ── Document loaders (multi-format) ───────────────────────────────────────
+pypdf>=4.0                  # PDF
+docx2txt>=0.8               # .docx / .doc  (used by Docx2txtLoader)
+unstructured>=0.10          # .md  (UnstructuredMarkdownLoader)
+markdown>=3.3               # required by UnstructuredMarkdownLoader
+pandas>=2.0                 # Excel parsing
+openpyxl>=3.1               # .xlsx engine for pandas
+xlrd>=2.0                   # .xls engine for pandas
+
+# ── Config management ──────────────────────────────────────────────────────
+pydantic-settings>=2.0
+python-dotenv>=1.0
+typing-extensions>=4.10.0
+
+# ── Testing ────────────────────────────────────────────────────────────────
+pytest>=8.0

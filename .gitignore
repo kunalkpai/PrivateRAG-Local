@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS Files
+.DS_Store
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Project Data (Private)
+data/
+chroma_db/
+
+# Secrets & Local Docs
+*.env
+DOCS.md
+WALKTHROUGH.md
+git.md
+Limitations.md
+demo.md
+
+# Tooling Caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Local configuration
+.vscode/
+.idea/
